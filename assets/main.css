@@ -1,0 +1,37 @@
+/* Limit the effect of fonts.googleapis.com/icon?family=Material+Icons taking a while to load. */
+i.material-icon { max-width: 24px; }
+.mdl-layout__header { background: #263238; }
+.mdl-layout__header-row { padding: 15px 0 8px 20px; }
+.mdl-layout__content { padding: 70px 0; overflow-x: scroll; }
+/* Override li padding to increase click target of contained anchor. */
+.mdl-menu li.mdl-menu__item { padding: 0; }
+.mdl-menu a { color: #757575; display: block; padding: 0 16px; text-decoration: none; }
+.mdl-menu a:focus { background: #ccc; }
+.dib { display: inline-block; }
+table.mdl-data-table { font-size: 16px; margin: 0 auto; max-width: 625px; }
+table.mdl-data-table th, td { font-size: 16px; }
+th *, td * { vertical-align: middle; }
+th.server-header { text-align: left; padding: 24px; white-space: normal; }
+th.server-header h4 { margin-bottom: 30px; }
+th.server-header p { font-size: 18px; }
+#server-menu-button { position: absolute; top: 48px; right: 24px; }
+th.server-header .avatar { width: 86px; height: 86px; margin-right: 30px; }
+th.name, th.access-url, td.name, td.access-url { text-align: left; }
+th.icon-only, td.icon-only { text-align: center; }
+input.mdl-textfield__input { color: #757575; margin: 0 auto; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+input.name:not(:focus) { border-bottom-color: transparent; }
+tr { transition: background 1.5s !important; }
+tr.highlighted { background: #FFF9C4; }
+#add-user-container { display: block; margin: 50px 0; text-align: center; vertical-align: middle; }
+a[data-action=addUser] { display: inline-block; padding: 5px 10px; text-decoration: none; }
+#add-user-button { background-color: #1DE9B6; }
+#add-user-container .button-label { color: #57D2B3; font-size: 18px; display: inline-block; padding-left: 8px; }
+#loading-icon { width: 56px; height: 56px; display: inline-block; vertical-align: middle; }
+.mdl-spinner--single-color * { border-color: #57D2B3; }
+dialog.mdl-dialog { min-width: 340px; width: 60%; max-width: 560px; }
+dialog.mdl-dialog .mdl-dialog__title { font-size: 1.75rem; }
+.share-dialog-prompt { line-height: inherit; }
+.share-msg { padding: 15px; width: calc(100% - 32px); overflow: scroll; max-height: 300px; outline: 1px solid #eee; }
+.share-msg a { cursor: pointer; }
+a { color: #57D2B3; }
+#mock-warning { color: red; margin: 80px; text-align: center; font-size: small; }
